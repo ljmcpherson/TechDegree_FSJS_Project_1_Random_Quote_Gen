@@ -56,7 +56,9 @@ console.log(quotes);
  * `getRandomQuote` function
 ***/
 // 1. Create a variable that generates a random number between 0 and the last index in the 'quotes' array
-    function getRandomQuote () {
+    const randomNumber = 
+      function getRandomQuote (array) {
+        return Math.floor(Math.random() * (array.length) +1);
 
     }
 // 2. Use the random number variable and bracket notation to grab a random object from the 'quotes' array, and store it in a variable
