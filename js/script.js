@@ -30,7 +30,7 @@ project 1 - A Random Quote Generator
       source:    '-Tara Mohr', 
       year:     '2021' 
               },
-    { property6: '”The problem is not the problem. The problem is your attitude about the problem. Do you understand?”', 
+    { quote: '”The problem is not the problem. The problem is your attitude about the problem. Do you understand?”', 
       source:    '-Captain Jack Sparrow', 
       citation: 'Pirates of the Carribean Curse of the Black Pearl' 
               },
