@@ -34,17 +34,17 @@ project 1 - A Random Quote Generator
       source:    '-Captain Jack Sparrow', 
       citation: 'Pirates of the Carribean Curse of the Black Pearl' 
               },
-    { property7: '“Some natures are too noble to curb and too lofty to bend.”', 
+    { quote: '“Some natures are too noble to curb and too lofty to bend.”', 
       source:    '-L.M. Alcott' 
               },
-    { property8: '“I can accept failure, everyone fails at something. I can\'t accept not trying.”', 
+    { quote: '“I can accept failure, everyone fails at something. I can\'t accept not trying.”', 
       source:    '-Michael Jordan' 
               },
-    { property9: '“The world is not in your books and maps. It’s out there.”', 
+    { quote: '“The world is not in your books and maps. It’s out there.”', 
       source:    '-Gandolf the Grey', 
       citation: 'The Hobbit an Unexpected Adventure' 
               },
-    { property10: '“Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.”', 
+    { quote: '“Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.”', 
       source:     '-Jelaluddin Rumi'
               }
 
