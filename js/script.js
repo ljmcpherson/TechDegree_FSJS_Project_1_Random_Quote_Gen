@@ -64,7 +64,7 @@ console.log(quotes);
 
     
 // 2. Use the random number variable and bracket notation to grab a random object from the 'quotes' array, and store it in a variable
-      const myQuotesList = randomNumber ()[i];
+      const myQuotesList = randomNumber [quotes.quote]; 
 // 3. Return the variable storing the random quote object
         return myQuotesList;
 
