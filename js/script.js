@@ -50,7 +50,7 @@ project 1 - A Random Quote Generator
 
   ];
 
-console.log(quotes);
+//console.log(quotes);
 
 /***
  * `getRandomQuote` function
