@@ -50,7 +50,7 @@ project 1 - A Random Quote Generator
 
   ];
 
-//console.log(quotes);
+console.log(quotes);
 
 /***
  * `getRandomQuote` function
@@ -75,6 +75,7 @@ project 1 - A Random Quote Generator
 function printQuote() {
   // 1. Create a variable that calls the getRandomQuote() 
   // function
+     getRandomQuote();
 
   // 2. Create a variable that initiates your HTML string with 
   // the first two <p></p> elements, their classNames, 
