@@ -75,7 +75,7 @@ console.log(quotes);
 function printQuote() {
   // 1. Create a variable that calls the getRandomQuote() 
   // function
-     const ranQuote = getRandomQuote();
+     const randQuote = getRandomQuote();
 
   // 2. Create a variable that initiates your HTML string with 
   // the first two <p></p> elements, their classNames, 
