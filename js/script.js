@@ -95,6 +95,12 @@ function printQuote() {
   // 5. After the two if statements, concatenate the closing </p> 
   // tag to the HTML string
 
+    const QuoteDetails = '<p class="quote">quote text</p>'
+                            '<p class="source">quote source
+                               <span class="citation">quote citation</span>
+                                   <span class="year">quote year</span>
+                                     </p>
+
   // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
 }
