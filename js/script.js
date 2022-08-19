@@ -105,7 +105,7 @@ function printQuote() {
   // complete HTML string
 }
 
-
+id.innerHTML = QuoteDetails
 
 /***
  * click event listener for the print quote button
