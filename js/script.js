@@ -101,11 +101,21 @@ function printQuote() {
                                    <span class="year">quote year</span>
                                      </p>
 
+ if (randomQuote.quote) {
+ human += `<p>An experience level of ${myChar.experience}.</p>`;
+                                
+    }
+    if (randomQuote.source) {
+      human += `<p>An experience level of ${myChar.experience}.</p>`;
+                                     
+         }
+
+
   // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
 }
 
-id.innerHTML = QuoteDetails
+document.getElementById('quote-box').innerHTML = QuoteDetails;
 
 /***
  * click event listener for the print quote button
