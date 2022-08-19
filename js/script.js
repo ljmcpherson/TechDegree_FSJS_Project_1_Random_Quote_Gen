@@ -95,8 +95,8 @@ function printQuote() {
   // 5. After the two if statements, concatenate the closing </p> 
   // tag to the HTML string
 
-    const QuoteDetails = '<p class="quote">quote text</p>'
-                            '<p class="source">quote source
+    const QuoteDetails = '<p class="quotes">randomQuote.quote</p>'
+                            '<p class="source">randomQuote.source
                                <span class="citation">quote citation</span>
                                    <span class="year">quote year</span>
                                      </p>
