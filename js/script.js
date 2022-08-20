@@ -87,7 +87,12 @@ function printQuote() {
   // and the quote and source properties, but leave off 
   // the second closing `</p>` tag for now
 
-  // 3. Use an if statement to check if the citation property 
+    let QuoteDetails = `<p class="quote">${randomQuote.quote}</p>
+                            <p class="source">${randomQuote.source}`
+                               <span class="citation">${randQuote.citation}</span>
+                                   <span class="year">${randQuote.year}</span>
+
+// 3. Use an if statement to check if the citation property 
   // exists, and if it does, concatenate a <span></span> 
   // element, appropriate className, and citation property 
   // to the HTML string
@@ -99,11 +104,6 @@ function printQuote() {
 
   // 5. After the two if statements, concatenate the closing </p> 
   // tag to the HTML string
-
-    let QuoteDetails = `<p class="quote">${randomQuote.quote}</p>
-                            <p class="source">${randomQuote.source}`
-                               <span class="citation">${randQuote.citation}</span>
-                                   <span class="year">${randQuote.year}</span>
                                      
 
  if (randQuote.quote) {
