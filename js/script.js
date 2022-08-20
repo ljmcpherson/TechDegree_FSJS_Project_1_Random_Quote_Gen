@@ -110,10 +110,10 @@ function printQuote() {
                                      
          }
 
-
+        }
   // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
-}
+
 
  document.getElementById('quote-box').innerHTML = `<p class="quotes">randomQuote.quote</p>
                                                        <p class="source">randomQuote.source
