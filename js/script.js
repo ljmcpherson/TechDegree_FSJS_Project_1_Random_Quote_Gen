@@ -12,6 +12,10 @@ project 1 - A Random Quote Generator
 ***/
   //console.log('test');
 
+  /**
+   * 
+   */
+
   const quotes = [
     { quote: '"We must try not to sink beneath our anguish, Harry, but battle on it."', 
       source: '-Albus Dumbledore', 
@@ -87,7 +91,7 @@ function printQuote() {
   // element, appropriate className, and citation property 
   // to the HTML string
 
-  // 4. Use an if statement to check of the year property exists, 
+  // 4. Use an if statement to check if the year property exists, 
   // and if it does, concatenate a <span></span> element, 
   // appropriate className, and year property to the HTML 
   //string
