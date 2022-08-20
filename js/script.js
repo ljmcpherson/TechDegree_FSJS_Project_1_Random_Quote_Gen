@@ -103,17 +103,17 @@ function printQuote() {
   //string
                                  
  if (randQuote.quote) {
-              QuoteDetails += `<p> ${randQuote.quote}</p>` + `<span>${randQuote.citation}</span>`;
+              QuoteDetails += ${randQuote.quote} + `<span>${randQuote.citation}</span>`;
                                 
     }
     if (randQuote.source) {
-              QuoteDetails += `<p> ${randQuote.source}</p>` + `<span>${randQuote.year}</span>`;
+              QuoteDetails += ${randQuote.source} + `<span>${randQuote.year}</span>`;
                                      
          }
 
 // 5. After the two if statements, concatenate the closing </p> 
   // tag to the HTML string
-         </p>
+         QuoteDetails += `</p>`;
 
  // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
