@@ -101,7 +101,7 @@ function printQuote() {
   // tag to the HTML string
 
     let QuoteDetails = `<p class="quote">${randomQuote.quote}</p>
-                            <p class="source">${randomQuote.source}
+                            <p class="source">${randomQuote.source}`
                                <span class="citation">${randQuote.citation}</span>
                                    <span class="year">${randQuote.year}</span>
                                      
@@ -114,7 +114,7 @@ function printQuote() {
               QuoteDetails += `<p> ${randQuote.source}</p>` + `<span>${randQuote.year}</span>`;
                                      
          }
-         </p>`
+         </p>
 
  // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
