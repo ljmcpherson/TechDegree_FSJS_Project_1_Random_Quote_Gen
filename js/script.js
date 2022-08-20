@@ -87,8 +87,8 @@ function printQuote() {
   // and the quote and source properties, but leave off 
   // the second closing `</p>` tag for now
 
-    let QuoteDetails = `<p class="quote">${randomQuote.quote}</p>
-                            <p class="source">${randomQuote.source}`
+    let QuoteDetails = `<p class="quote">${randQuote.quote}</p>
+                            <p class="source">${randQuote.source}`
                                <span class="citation">${randQuote.citation}</span>
                                    <span class="year">${randQuote.year}</span>
 
