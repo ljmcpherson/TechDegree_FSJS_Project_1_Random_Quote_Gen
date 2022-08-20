@@ -102,11 +102,11 @@ function printQuote() {
   // appropriate className, and year property to the HTML 
   //string
                                  
- if (randQuote.quote) {
+ if (randQuote.citation) {
               QuoteDetails += `<span>${randQuote.citation}</span>`;
                                 
     }
-    if (randQuote.source) {
+    if (randQuote.year) {
               QuoteDetails += `<span>${randQuote.year}</span>`;
                                      
          }
