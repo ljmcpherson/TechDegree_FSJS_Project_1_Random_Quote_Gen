@@ -104,7 +104,7 @@ function printQuote() {
                             <p class="source">randomQuote.source
                                <span class="citation">randQuote.citation</span>
                                    <span class="year">randQuote.year</span>
-                                     </p>}`
+                                     
 
  if (randQuote.quote) {
               QuoteDetails += `<p> ${randQuote.quote}</p>`;
@@ -114,6 +114,7 @@ function printQuote() {
               QuoteDetails += `<p> ${randQuote.source}</p>`;
                                      
          }
+         </p>}`
 
          document.getElementById('quote-box').innerHTML = QuoteDetails; }
   // 6. set the innerHTML of the quote-box div to equal the 
