@@ -89,8 +89,6 @@ function printQuote() {
 
     let QuoteDetails = `<p class="quote">${randQuote.quote}</p>
                             <p class="source">${randQuote.source}`
-                               <span class="citation">${randQuote.citation}</span>
-                                   <span class="year">${randQuote.year}</span>
 
 // 3. Use an if statement to check if the citation property 
   // exists, and if it does, concatenate a <span></span> 
@@ -103,11 +101,11 @@ function printQuote() {
   //string
                                  
  if (randQuote.citation) {
-              QuoteDetails += `<span>${randQuote.citation}</span>`;
+              QuoteDetails += `<span class="citation">${randQuote.citation}</span>`;
                                 
     }
     if (randQuote.year) {
-              QuoteDetails += `<span>${randQuote.year}</span>`;
+              QuoteDetails += `<span class="year">${randQuote.year}</span>`;
                                      
          }
 
