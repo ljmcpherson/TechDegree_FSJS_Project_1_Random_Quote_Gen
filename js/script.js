@@ -102,11 +102,11 @@ function printQuote() {
                                      </p>
 
  if (randQuote.quote) {
- //run this code if evaluated to true randQuote += `<p> ${randomQuote.quote}.</p>`;
+              QuoteDetails += `<p> ${randQuote.quote}.</p>`;
                                 
     }
     if (randQuote.source) {
-     //run this code if evaluated to true randQuote += `<p>An experience level of ${myChar.experience}.</p>`;
+              QuoteDetails += `<p> ${randQuote.source}.</p>`;
                                      
          }
 
