@@ -101,7 +101,7 @@ function printQuote() {
   // tag to the HTML string
 
     let QuoteDetails = `<p class="quotes">${randomQuote.quote}</p>
-                            <p class="source">${randomQuote.source}
+                            <p class="source">${randomQuote.source}`;
                                <span class="citation">${randQuote.citation}</span>
                                    <span class="year">${randQuote.year}</span>
                                      
