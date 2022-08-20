@@ -101,11 +101,7 @@ function printQuote() {
   // and if it does, concatenate a <span></span> element, 
   // appropriate className, and year property to the HTML 
   //string
-
-  // 5. After the two if statements, concatenate the closing </p> 
-  // tag to the HTML string
-                                     
-
+                                 
  if (randQuote.quote) {
               QuoteDetails += `<p> ${randQuote.quote}</p>` + `<span>${randQuote.citation}</span>`;
                                 
@@ -114,6 +110,9 @@ function printQuote() {
               QuoteDetails += `<p> ${randQuote.source}</p>` + `<span>${randQuote.year}</span>`;
                                      
          }
+
+// 5. After the two if statements, concatenate the closing </p> 
+  // tag to the HTML string
          </p>
 
  // 6. set the innerHTML of the quote-box div to equal the 
