@@ -42,7 +42,7 @@ project 1 - A Random Quote Generator
               },
     { quote: '“The world is not in your books and maps. It’s out there.”', 
       source:    '-Gandolf the Grey', 
-      citation: 'The Hobbit an Unexpected Adventure' 
+      citation: 'The Hobbit: An Unexpected Adventure' 
               },
     { quote: '“Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.”', 
       source:     '-Jelaluddin Rumi'
@@ -115,7 +115,17 @@ function printQuote() {
   // complete HTML string
 }
 
-QuoteDetails = document.getElementById('quote-box').innerHTML;
+ document.getElementById('quote-box').innerHTML = `<p class="quotes">randomQuote.quote</p>
+                                                       <p class="source">randomQuote.source
+                                                         <span class="citation">randQuote.citation</span>
+                                                          <span class="year">randQuote.year</span>
+                                                             </p>`;
+
+
+
+// Extra Credit
+
+//
 
 /***
  * click event listener for the print quote button
