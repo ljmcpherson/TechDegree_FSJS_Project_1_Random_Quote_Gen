@@ -13,7 +13,8 @@ project 1 - A Random Quote Generator
   //console.log('test');
 
   /**
-   * 
+   * This code is set-up to create a website that randomly generates different quotations to the page when a button on the page
+   * is pressed. 
    */
 
   const quotes = [
@@ -99,7 +100,7 @@ function printQuote() {
   // 5. After the two if statements, concatenate the closing </p> 
   // tag to the HTML string
 
-    const QuoteDetails = `<p class="quotes">randomQuote.quote</p>
+    let QuoteDetails = `<p class="quotes">randomQuote.quote</p>
                             <p class="source">randomQuote.source
                                <span class="citation">randQuote.citation</span>
                                    <span class="year">randQuote.year</span>
@@ -114,17 +115,12 @@ function printQuote() {
                                      
          }
 
-        }
+         document.getElementById('quote-box').innerHTML = QuoteDetails; }
   // 6. set the innerHTML of the quote-box div to equal the 
   // complete HTML string
 
 
- document.getElementById('quote-box').innerHTML = `<p class="quotes">randomQuote.quote</p>
-                                                       <p class="source">randomQuote.source
-                                                         <span class="citation">randQuote.citation</span>
-                                                          <span class="year">randQuote.year</span>
-                                                             </p>`;
-
+ 
 
 
 // Extra Credit
