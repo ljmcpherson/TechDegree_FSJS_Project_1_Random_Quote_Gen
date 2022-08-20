@@ -101,12 +101,12 @@ function printQuote() {
                                    <span class="year">quote year</span>
                                      </p>
 
- if (randomQuote.quote) {
- human += `<p>An experience level of ${myChar.experience}.</p>`;
+ if (QuoteDetails.quote) {
+ //run this code if evaluated to true randQuote += `<p> ${randomQuote.quote}.</p>`;
                                 
     }
-    if (randomQuote.source) {
-      human += `<p>An experience level of ${myChar.experience}.</p>`;
+    if (QuoteDetails.source) {
+     //run this code if evaluated to true randQuote += `<p>An experience level of ${myChar.experience}.</p>`;
                                      
          }
 
