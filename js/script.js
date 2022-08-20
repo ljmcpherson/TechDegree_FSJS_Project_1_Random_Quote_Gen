@@ -107,11 +107,11 @@ function printQuote() {
                                      
 
  if (randQuote.quote) {
-              QuoteDetails += `<p> ${randQuote.quote}</p>` + `<span>${randQuote.quote}</span>`;
+              QuoteDetails += `<p> ${randQuote.quote}</p>` + `<span>${randQuote.citation}</span>`;
                                 
     }
     if (randQuote.source) {
-              QuoteDetails += `<p> ${randQuote.source}</p>` + `<span>${randQuote.quote}</span>`;
+              QuoteDetails += `<p> ${randQuote.source}</p>` + `<span>${randQuote.year}</span>`;
                                      
          }
          </p>}`
