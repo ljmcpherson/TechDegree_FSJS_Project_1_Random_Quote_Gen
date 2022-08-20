@@ -115,7 +115,7 @@ function printQuote() {
   // complete HTML string
 }
 
-document.getElementById('quote-box').innerHTML = QuoteDetails;
+QuoteDetails = document.getElementById('quote-box').innerHTML;
 
 /***
  * click event listener for the print quote button
