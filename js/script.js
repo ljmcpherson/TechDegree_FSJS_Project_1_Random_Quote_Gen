@@ -22,53 +22,65 @@ project 1 - A Random Quote Generator
     { quote: 'We must try not to sink beneath our anguish, Harry, but battle on it.', 
       source: 'Albus Dumbledore', 
       citation: 'Harry Potter and The Half-Blood Prince', 
-      year:     '2009'
+      year:     '2009',
+      tag:       'Practical Wisdom'
                 },
     { quote: 'I wake up every morning determined to both change the world and have on hell of a good time. Sometimes this makes planning my day difficult.', 
-      source:  'E.B. White' 
+      source:  'E.B. White',
+      tag:       'Perspecitve'
                 },
     { quote: 'As soon as you trust yourself, you will know how to live.', 
-       source: 'Johann Wolfgang von Goethe'
+       source: 'Johann Wolfgang von Goethe',
+       tag:       'Philosophical'
                  },
     { quote: 'I live my life in widening circles that reach out across the world.', 
-      source:  'Ranier Maria Rilke' 
+      source:  'Ranier Maria Rilke',
+      tag:       'Poetry' 
               },
     { quote: 'Clear a path by walking it, boldly.', 
       source:    'Tara Mohr', 
       citation: 'Email Newsletter', 
-      year:     '2021' 
+      year:     '2021',
+      tag:       'Inspirational'
               },
     { quote: 'The problem is not the problem. The problem is your attitude about the problem. Do you understand?', 
       source:    'Captain Jack Sparrow', 
       citation: 'Pirates of the Carribean Curse of the Black Pearl',
-      year:      '2003'
+      year:      '2003',
+      tag:       'Perspective'
               },
     { quote: 'There are some natures are too noble to curb and too lofty to bend.', 
       source:    'Abba Alcott',
-      citation:  'Words of wisdom with which she consoled her daughter, Louisa May Alcott'
+      citation:  'Words of wisdom with which she consoled her daughter, Louisa May Alcott',
+      tag:       'Inspirational'
               },
     { quote: 'I can accept failure, everyone fails at something. I can\'t accept not trying.', 
       source:    'Michael Jordan',
       citation:  'I Can\'t Accept Not Trying: Michael Jordan on the Pursuit of Excellence',
-      year:      '1994'
+      year:      '1994',
+      tag:       'Inspirational'
               },
     { quote: 'The world is not in your books and maps. It’s out there.', 
       source:    'Gandolf the Grey to Bilbo Baggins', 
       citation: 'The Hobbit: An Unexpected Adventure',
-      year:     '2012'
+      year:     '2012',
+      tag:       'Practical Wisdom'
               },
     { quote: 'Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.', 
-      source:     'Jelaluddin Rumi'
+      source:     'Jelaluddin Rumi',
+      tag:       'Poetry'
               },
    { quote: 'You can fail at what you don\’t want, so you might as well take a chance on what you love.', 
     source:    'Jim Carrey', 
     citation: 'Commencement Speech at Maharishi International University',
-    year:     '2014'
+    year:     '2014',
+    tag:       'Inspirational'
                       },
  { quote: 'Children aren\'t coloring books. You don\'t get to fill them with your favorite colors.', 
    source:    'Rahim Khan to Baba', 
    citation: 'The Kite Runner',
-   year:     '2003'
+   year:     '2003',
+   tag:       'Perspective'
                    },
 
   ];
