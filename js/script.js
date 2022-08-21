@@ -20,7 +20,7 @@ project 1 - A Random Quote Generator
   const quotes = [
     { quote: 'We must try not to sink beneath our anguish, Harry, but battle on it.', 
       source: '-Albus Dumbledore', 
-      citation: 'The Half-Blood Prince', 
+      citation: 'Harry Potter and The Half-Blood Prince', 
       year:     '2009'
                 },
     { quote: 'I wake up every morning determined to both change the world and have on hell of a good time. Sometimes this makes planning my day difficult.', 
@@ -34,6 +34,7 @@ project 1 - A Random Quote Generator
               },
     { quote: 'Clear a path by walking it, boldly.', 
       source:    '-Tara Mohr', 
+      citation: 'Email Newsletter', 
       year:     '2021' 
               },
     { quote: 'The problem is not the problem. The problem is your attitude about the problem. Do you understand?', 
@@ -51,13 +52,23 @@ project 1 - A Random Quote Generator
       year:      '1994'
               },
     { quote: 'The world is not in your books and maps. It’s out there.', 
-      source:    '-Gandolf the Grey', 
+      source:    '-Gandolf the Grey to Bilbo Baggins', 
       citation: 'The Hobbit: An Unexpected Adventure',
       year:     '2012'
               },
     { quote: 'Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.', 
       source:     '-Jelaluddin Rumi'
-              }
+              },
+   { quote: 'You can fail at what you don\’t want, so you might as well take a chance on what you love.', 
+    source:    '-Jim Carrey', 
+    citation: 'Commencement Speech Maharishi International University',
+    year:     '2014'
+                      },
+ { quote: 'Children aren\'t coloring books. You don\'t get to fill them with your favorite colors.', 
+   source:    '-Rahim Khan to Baba', 
+   citation: 'The Kite Runner',
+   year:     '2003'
+                   },
 
   ];
 
