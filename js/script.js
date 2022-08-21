@@ -18,38 +18,44 @@ project 1 - A Random Quote Generator
    */
 
   const quotes = [
-    { quote: '"We must try not to sink beneath our anguish, Harry, but battle on it."', 
+    { quote: 'We must try not to sink beneath our anguish, Harry, but battle on it.', 
       source: '-Albus Dumbledore', 
-      citation: 'The Half-Blood Prince' 
+      citation: 'The Half-Blood Prince', 
+      year:     '2009'
                 },
-    { quote: '“I wake up every morning determined to both change the world and have on hell of a good time. Sometimes this makes planning my day difficult.”', 
+    { quote: 'I wake up every morning determined to both change the world and have on hell of a good time. Sometimes this makes planning my day difficult.', 
       source:  '-E.B. White' 
                 },
-    { quote: '“As soon as you trust yourself, you will know how to live.”', 
+    { quote: 'As soon as you trust yourself, you will know how to live.', 
        source: 'Johann Wolfgang von Goethe'
                  },
-    { quote: '“I live my life in widening circles that reach out across the world.”', 
+    { quote: 'I live my life in widening circles that reach out across the world.', 
       source:  '-Ranier Maria Rilke' 
               },
-    { quote: '“Clear a path by walking it, boldly.”', 
+    { quote: 'Clear a path by walking it, boldly.', 
       source:    '-Tara Mohr', 
       year:     '2021' 
               },
-    { quote: '”The problem is not the problem. The problem is your attitude about the problem. Do you understand?”', 
+    { quote: 'The problem is not the problem. The problem is your attitude about the problem. Do you understand?', 
       source:    '-Captain Jack Sparrow', 
-      citation: 'Pirates of the Carribean Curse of the Black Pearl' 
+      citation: 'Pirates of the Carribean Curse of the Black Pearl',
+      year:      '2003'
               },
-    { quote: '“Some natures are too noble to curb and too lofty to bend.”', 
-      source:    '-L.M. Alcott' 
+    { quote: 'There are some natures are too noble to curb and too lofty to bend.', 
+      source:    '-Abba Alcott',
+      citation:  'Advice she gave to her daughter Louisa May Alcott'
               },
-    { quote: '“I can accept failure, everyone fails at something. I can\'t accept not trying.”', 
-      source:    '-Michael Jordan' 
+    { quote: 'I can accept failure, everyone fails at something. I can\'t accept not trying.', 
+      source:    '-Michael Jordan',
+      citation:  'I Can\'t Accept Not Trying : Michael Jordan on the Pursuit of Excellence',
+      year:      '1994'
               },
-    { quote: '“The world is not in your books and maps. It’s out there.”', 
+    { quote: 'The world is not in your books and maps. It’s out there.', 
       source:    '-Gandolf the Grey', 
-      citation: 'The Hobbit: An Unexpected Adventure' 
+      citation: 'The Hobbit: An Unexpected Adventure',
+      year:     '2012'
               },
-    { quote: '“Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.”', 
+    { quote: 'Out beyond ideas of wrongdoing and rightdoing there is a field. I’ll meet you there. When the soul lies down in that grass, the world is too full to talk about. Ideas, language, even the phrase each other doesn’t make any sense.', 
       source:     '-Jelaluddin Rumi'
               }
 
