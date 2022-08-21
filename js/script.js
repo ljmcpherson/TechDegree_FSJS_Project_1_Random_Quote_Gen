@@ -123,24 +123,34 @@ function printQuote() {
     let QuoteDetails = `<p class="quote">${randQuote.quote}</p>
                             <p class="source">${randQuote.source}`
 
-// 3. One of two `if` statements has been created to check if the citation property 
+// 3. One of three `if` statements has been created to check if the citation property 
   // exists, and if it does, a <span></span> 
   // element, appropriate className, and citation property is concatenated
   // to the HTML string 
                                  
  if (randQuote.citation) {
               QuoteDetails += `<span class="citation">${randQuote.citation}</span>`;
+              }
 
-// 4. Two of two `if` statements has been created to check if the year property exists, 
+// 4. Two of three `if` statements has been created to check if the year property exists, 
   // and if it does, a <span></span> element, 
   // appropriate className, and year property is concatenated to the HTML 
   //string
                                 
-    }
+    
     if (randQuote.year) {
               QuoteDetails += `<span class="year">${randQuote.year}</span>`;
                                      
          }
+// EXTRA CREDIT. Three of three `if` statements has been created to check if the tag property exists, 
+  // and if it does, a <span></span> element, 
+  // appropriate className, and year property is concatenated to the HTML 
+  //string
+
+  if (randQuote.tag) {
+    QuoteDetails += `<span class="year">${randQuote.tag}</span>`;
+                           
+}
 
 // 5. After the two `if` statements, the closing </p> 
   // tag are concatenated to the HTML string
