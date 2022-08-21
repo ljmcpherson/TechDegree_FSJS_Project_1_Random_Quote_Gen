@@ -78,44 +78,47 @@ console.log(quotes);
 /***
  * `getRandomQuote` function
 ***/
-// 1. Create a variable that generates a random number between 0 and the last index in the 'quotes' array
+// 1. A variable has been created that generates a random number between 0 and the last index in the 'quotes' array, i.e. 12.
     function getRandomQuote (array) {
       let randomNumber = Math.floor(Math.random() * array.length );
       const myQuotesList = array[randomNumber]; 
       return myQuotesList;
     };
 
-   // getRandomQuote;
-// 2. Use the random number variable and bracket notation to grab a random object from the 'quotes' array, and store it in a variable
+   
+// 2. The random number variable and bracket notation has been used to grab a random object from the 'quotes' array, and stored in the variable `randQuote`
       
-// 3. Return the variable storing the random quote object
+// 3. The variable storing the random quote object, i.e. getRandomQuote has been returned
+
+    // getRandomQuote;
         
 
 
 /***
- * `printQuote` function
+ * A function called `printQuote` has been created that stores...
 ***/
 function printQuote() {
-  // 1. Create a variable that calls the getRandomQuote() 
-  // function
+  // 1. A variable that calls the getRandomQuote() 
+  // function has been created, i.e. `randQuote`
+
      const randQuote = getRandomQuote(quotes);
 
-  // 2. Create a variable that initiates your HTML string with 
+  // 2. A variable that initiates the HTML string with 
   // the first two <p></p> elements, their classNames, 
-  // and the quote and source properties, but leave off 
-  // the second closing `</p>` tag for now
+  // and the quote and source properties has been created, but
+  // the second closing `</p>` tag has been left-off for now
 
     let QuoteDetails = `<p class="quote">${randQuote.quote}</p>
                             <p class="source">${randQuote.source}`
 
-// 3. Use an if statement to check if the citation property 
-  // exists, and if it does, concatenate a <span></span> 
-  // element, appropriate className, and citation property 
-  // to the HTML string
+// 3. One of two if statements has been created to check if the citation property 
+  // exists, and if it does, a <span></span> 
+  // element, appropriate className, and citation property is concatenated
+  // to the HTML string 
 
-  // 4. Use an if statement to check if the year property exists, 
-  // and if it does, concatenate a <span></span> element, 
-  // appropriate className, and year property to the HTML 
+  // 4. Two of two if statements has been created to check if the year property exists, 
+  // and if it does, a <span></span> element, 
+  // appropriate className, and year property is concatenated to the HTML 
   //string
                                  
  if (randQuote.citation) {
@@ -127,11 +130,11 @@ function printQuote() {
                                      
          }
 
-// 5. After the two if statements, concatenate the closing </p> 
-  // tag to the HTML string
+// 5. After the two if statements, the closing </p> 
+  // tag are concatenated to the HTML string
          QuoteDetails += `</p>`;
 
- // 6. set the innerHTML of the quote-box div to equal the 
+ // 6. The innerHTML of the quote-box div is set to equal the 
   // complete HTML string
 
          document.getElementById('quote-box').innerHTML = QuoteDetails; 
