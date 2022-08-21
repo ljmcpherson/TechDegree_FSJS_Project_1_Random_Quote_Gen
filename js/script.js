@@ -47,7 +47,7 @@ project 1 - A Random Quote Generator
               },
     { quote: 'I can accept failure, everyone fails at something. I can\'t accept not trying.', 
       source:    '-Michael Jordan',
-      citation:  'I Can\'t Accept Not Trying : Michael Jordan on the Pursuit of Excellence',
+      citation:  'I Can\'t Accept Not Trying: Michael Jordan on the Pursuit of Excellence',
       year:      '1994'
               },
     { quote: 'The world is not in your books and maps. It’s out there.', 
