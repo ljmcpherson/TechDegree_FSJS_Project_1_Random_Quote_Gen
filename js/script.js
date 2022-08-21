@@ -13,8 +13,9 @@ project 1 - A Random Quote Generator
   //console.log('test');
 
   /**
-   * This code is set-up to create a website that randomly generates different quotations to the page when a button on the page
-   * is pressed. 
+   * This code is designed to create a website that randomly generates different quotations to the page when a button on the page
+   * is pressed. There are 12 quotations in the `quotes` array and each object has an amalgamation of properties, e.g. quote, source, citation and year.
+   * 
    */
 
   const quotes = [
