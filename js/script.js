@@ -14,7 +14,7 @@ project 1 - A Random Quote Generator
 
   /**
    * This code is designed to create a website that randomly generates different quotations to the page when a button on the page
-   * is pressed. There are 12 quotations in the `quotes` array and each object has an amalgamation of properties, e.g. quote, source, citation and year.
+   * is pressed. There are 14 quotations in the `quotes` array and each object has an amalgamation of properties, e.g. quote, source, citation and year.
    * 
    */
 
@@ -82,6 +82,20 @@ project 1 - A Random Quote Generator
    year:     '2003',
    tag:       'Perspective'
                    },
+{ quote: 'In learning you will teach and in teaching you will learn.', 
+ source:    'Phil Collins', 
+ citation: '"Son of Man" from the Tarzan Soundtrack',
+ year:     '1999',
+ tag:       'Music'
+                  },
+ { quote: 'Though she be but little, she is fierce!', 
+ source:    'William Shakespeare', 
+ citation: 'A Midsommer\'s Night Dream',
+ year:     '1600',
+ tag:       'Theatre'
+                  },
+               
+                
 
   ];
 
@@ -90,7 +104,7 @@ console.log(quotes);
 /***
  * `getRandomQuote` function
 ***/
-// 1. A variable has been created that generates a random number between 0 and the last index in the 'quotes' array, i.e. 12.
+// 1. A variable has been created that generates a random number between 0 and the last index in the 'quotes' array, i.e. 14.
     function getRandomQuote (array) {
       let randomNumber = Math.floor(Math.random() * array.length );
       const myQuotesList = array[randomNumber]; 
