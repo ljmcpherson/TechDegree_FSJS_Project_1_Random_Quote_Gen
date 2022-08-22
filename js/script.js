@@ -168,11 +168,21 @@ function printQuote() {
 // 5. After the two `if` statements, the closing </p> 
   // tag are concatenated to the HTML string
          QuoteDetails += `</p>`;
-
- // 6. The innerHTML of the quote-box div is set to equal the 
+ 
+//Extra credit. creating a color-changer of the page when a new quotations renders on the page
+         let html = '';
+         const randomValue = () => Math.floor(Math.random() * 256);
+          
+         
+           function randomRGB(printQuote) {
+             const color = `rgb( ${value()}, ${value()}, ${value()} )`;
+             return color;
+           }
+// 6. The innerHTML of the quote-box div is set to equal the 
   // complete HTML string
 
-         document.getElementById('quote-box').innerHTML = QuoteDetails; 
+  document.getElementById('quote-box').innerHTML = QuoteDetails; 
+
         }
   
 
@@ -180,23 +190,6 @@ function printQuote() {
 
 
 // Extra Credit
-
-let html = '';
-const randomValue = () => Math.floor(Math.random() * 256);
- 
-
-  function randomRGB(printQuote) {
-    const color = `rgb( ${value()}, ${value()}, ${value()} )`;
-    return color;
-  }
-
- for (let i = 1; i <= 10; i++) {
-  html += `<div style="background-color: ${randomRGB(randomValue)}">${i}</div>`;
-}
-
- 
-
-document.querySelector('main').innerHTML = html;
 
 //
 
