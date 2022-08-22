@@ -169,21 +169,23 @@ function printQuote() {
   // tag are concatenated to the HTML string
          QuoteDetails += `</p>`;
  
-//Extra credit. creating a color-changer of the page when a new quotations renders on the page
-         let html = '';
-         const randomValue = () => Math.floor(Math.random() * 256);
-          
-         
-           function randomRGB(printQuote) {
-             const color = `rgb( ${value()}, ${value()}, ${value()} )`;
-             return color;
-           }
 // 6. The innerHTML of the quote-box div is set to equal the 
   // complete HTML string
 
   document.getElementById('quote-box').innerHTML = QuoteDetails; 
 
         }
+
+//Extra credit. creating a color-changer of the page when a new quotations renders on the page
+let html = '';
+const randomValue = () => Math.floor(Math.random() * 1);
+ 
+
+  function randomRGB(printQuote) {
+    const color = `rgb( ${value()}, ${value()}, ${value()} )`;
+    return color;
+  }
+  document.querySelector('body').innerHTML = html;
   
 
  
