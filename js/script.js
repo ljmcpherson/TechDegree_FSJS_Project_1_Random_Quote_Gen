@@ -93,11 +93,10 @@ project 1 - A Random Quote Generator
  citation: 'A Midsommer\'s Night Dream',
  year:     '1600',
  tag:       'Theatre'
-                  },
+                  }
                
                 
-
-  ];
+];
 
 console.log(quotes);
 
@@ -186,7 +185,7 @@ let html = '';
 const randomValue = () => Math.floor(Math.random() * 256);
  
 
-  function randomRGB(value) {
+  function randomRGB(printQuote) {
     const color = `rgb( ${value()}, ${value()}, ${value()} )`;
     return color;
   }
