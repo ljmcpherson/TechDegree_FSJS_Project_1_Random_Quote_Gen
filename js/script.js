@@ -116,7 +116,19 @@ console.log(quotes);
 // 3. The variable storing the random quote object, i.e. getRandomQuote has been returned
 
     // getRandomQuote;
-        
+   
+    //Extra credit. creating a color-changer of the page when a new quotations renders on the page
+  
+
+  let html = '';
+  const randomValue = () => Math.floor(Math.random() * 1);
+   
+  
+    function randomRGB() {
+      const color = `rgb( ${value()}, ${value()}, ${value()} )`;
+      return color;
+    }
+    document.querySelector('body').innerHTML = html;
 
 
 /***
@@ -176,16 +188,6 @@ function printQuote() {
 
         }
 
-//Extra credit. creating a color-changer of the page when a new quotations renders on the page
-let html = '';
-const randomValue = () => Math.floor(Math.random() * 1);
- 
-
-  function randomRGB(printQuote) {
-    const color = `rgb( ${value()}, ${value()}, ${value()} )`;
-    return color;
-  }
-  document.querySelector('body').innerHTML = html;
   
 
  
