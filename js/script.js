@@ -17,18 +17,6 @@ project 1 - A Random Quote Generator
    * is pressed. There are 14 quotations in the `quotes` array and each object has an amalgamation of properties, e.g. quote, source, citation and year.
    * 
    */
-
-  //Extra credit. creating a color-changer of the page when a new quotations renders on the page
-   let html = '';
-   const randomValue = () => Math.floor(Math.random() * 1);
-    
-   
-     function randomRGB() {
-       const color = `rgb( ${value()}, ${value()}, ${value()} )`;
-       return color;
-     }
-     document.querySelector('body').innerHTML = html;
-
   const quotes = [
     { quote: 'We must try not to sink beneath our anguish, Harry, but battle on it.', 
       source: 'Albus Dumbledore', 
@@ -205,3 +193,14 @@ function printQuote() {
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+
+//Extra credit. creating a color-changer of the page when a new quotations renders on the page
+let html = '';
+const randomValue = () => Math.floor(Math.random() * 1);
+ 
+
+  function randomRGB() {
+    const color = `rgb( ${value()}, ${value()}, ${value()} )`;
+    return color;
+  }
+  document.querySelector('body').innerHTML = html;
