@@ -178,12 +178,6 @@ function printQuote() {
 
         }
 
-  
-
- 
-
-
-// Extra Credit
 
 //
 
@@ -195,12 +189,12 @@ function printQuote() {
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
 
 //Extra credit. creating a color-changer of the page when a new quotations renders on the page
-let html = '';
-const randomValue = () => Math.floor(Math.random() * 1);
+//let html = '';
+const randomValue = () => Math.floor(Math.random() * 256);
  
 
   function randomRGB() {
-    const color = `rgb( ${value()}, ${value()}, ${value()} )`;
+    const color = `rgb( ${randomvalue()}, ${randomvalue()}, ${randomvalue()} )`;
     return color;
   }
-  document.querySelector('body').innerHTML = html;
+  //document.querySelector('body').innerHTML = html;
