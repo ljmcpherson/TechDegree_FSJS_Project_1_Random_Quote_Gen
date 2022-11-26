@@ -48,7 +48,7 @@ project 1 - A Random Quote Generator
       year:      '2003',
       tag:       'Perspective'
               },
-    { quote: 'There are some natures are too noble to curb and too lofty to bend.', 
+    { quote: 'There are some natures too noble to curb and too lofty to bend.', 
       source:    'Abba Alcott',
       citation:  'Words of wisdom with which she consoled her daughter, Louisa May Alcott',
       tag:       'Inspirational'
