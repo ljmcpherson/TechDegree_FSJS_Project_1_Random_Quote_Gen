@@ -24,7 +24,7 @@ project 1 - A Random Quote Generator
       year:     '2009',
       tag:       'Practical Wisdom'
                 },
-    { quote: 'I wake up every morning determined to both change the world and have on hell of a good time. Sometimes this makes planning my day difficult.', 
+    { quote: 'I wake up every morning determined to both change the world and have one hell of a good time. Sometimes this makes planning my day difficult.', 
       source:  'E.B. White',
       tag:       'Perspecitve'
                 },
@@ -190,11 +190,13 @@ document.getElementById('load-quote').addEventListener("click", printQuote, fals
 
 //Extra credit. creating a color-changer of the page when a new quotations renders on the page
 //let html = '';
-const randomValue = () => Math.floor(Math.random() * 256);
+//document.body.style.backgroundColor = "#AA0000";
+  //document.querySelector('body').innerHTML = html;
+
+  //const randomValue = () => Math.floor(Math.random() * 256);
  
 
-  function randomRGB() {
-    const color = `rgb( ${randomvalue()}, ${randomvalue()}, ${randomvalue()} )`;
-    return color;
-  }
-  //document.querySelector('body').innerHTML = html;
+ // function randomRGB() {
+   // const color = `rgb( ${randomvalue()}, ${randomvalue()}, ${randomvalue()} )`;
+   // return color;
+ // }
