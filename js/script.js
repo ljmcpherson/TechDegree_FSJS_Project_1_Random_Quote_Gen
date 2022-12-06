@@ -93,6 +93,12 @@ project 1 - A Random Quote Generator
  year:     '1600',
  tag:       'Theatre'
                   }
+ { quote: 'Do not just think about making money, think about living well. The most important aspect of living well is doing what you truly care for.', 
+ source:    'Sadhguru', 
+ citation: 'At some group speaking event',
+ year:     '2019',
+ tag:       'Spirtual'
+                                   }
                
                 
 ];
