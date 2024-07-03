@@ -60,7 +60,7 @@ project 1 - A Random Quote Generator
       tag:       'Inspirational'
               },
     { quote: 'The world is not in your books and maps. It’s out there.', 
-      source:    'Gandolf the Grey to Bilbo Baggins', 
+      source:    'Gandalf the Grey to Bilbo Baggins', 
       citation: 'The Hobbit: An Unexpected Adventure',
       year:     '2012',
       tag:       'Practical Wisdom'
